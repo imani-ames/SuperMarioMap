@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #ffff;
+    padding: 0 3em;
+}
+h1 {
+    font-family: 'DotGothic16', sans-serif;
+    letter-spacing: 0.4em;
+    text-align: center;
+}
+
+#map {
+    height: 60vh;
+}
